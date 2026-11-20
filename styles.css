@@ -1,0 +1,39 @@
+/* Estilos del panel de YoLo.
+   Este archivo está casi vacío a propósito: el diseño lo hacés vos. */
+
+body {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: rgb(8, 10, 122);
+  text-align: center;
+  border: 2px solid #25bdeb;
+}
+.destacado {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  border: 5px solid #251531;
+  margin: 25px;
+  background-color: #7f00e7;
+  width: 350px;
+  margin-left: 485px;
+}
+.titulo {
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  text-align: center;
+  background-color: rgb(0, 110, 255);
+  border: 5px solid #b5e700;
+  margin: 50px;
+}
+#controles {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
